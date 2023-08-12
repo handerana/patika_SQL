@@ -1,0 +1,35 @@
+UPDATE employee 
+SET name = 'Carla',
+	email = 'carla@carla.com',
+	birthday ='1990-11-02'
+WHERE id = 10;
+
+
+UPDATE employee 
+SET id = 2,
+	email = 'email.email.com',
+	birthday = '1982-03-12'
+WHERE name  = 'Vance';
+
+
+UPDATE employee 
+SET name = 'Bert',
+	id = 8,
+	birthday = '1972-08-06'
+WHERE email = 'iwilber14@facebook.com';
+
+
+DELETE FROM employee
+WHERE id=45;
+
+
+DELETE FROM employee
+WHERE name='Errick';
+
+
+DELETE FROM employee
+WHERE email='fscandrite15@123-reg.co.uk';
+
+
+DELETE FROM employee
+WHERE birthday='2005-11-22';
